@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3fd77ee3;
+    color: #bad8d1;
+   position: sticky;
+   top: 0px;
+   width: 100%;
+   z-index: 1;  /*first layer will be navbar*/
+  
+}
+.links li{
+    display: inline-block;
+    padding:20px ;
+}
+.name{
+    padding-left: 20px ;
+   /* margin-bottom: 10px; */
+   padding-top: 25px; 
+ }  
+.logo{
+    padding-left: 30px ;
+    /* padding-top: 20px; */
+        display: flex;
+        color: #019875;
+        font-family: adobe-garamond-pro,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        /* line-height: 36px; */
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    
+}
+.links a:hover{
+   color:yellow;
+   text-decoration: overline;
+   
+}

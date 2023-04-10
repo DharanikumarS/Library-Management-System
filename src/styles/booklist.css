@@ -1,0 +1,28 @@
+.booklist {
+  width: 100%;
+  height: 100%;
+}
+
+.map {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 430px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  float: left;
+  height: 600px;
+  overflow: hidden;
+  background-color: rgb(138, 113, 240);
+}
+/* .map :hover {
+  width: 410px;
+  height: 400px;
+  transition: width 2s;
+} */
+.list a {
+  border: 2px solid rgba(102, 9, 43, 0.432);
+ padding: 7px;
+}

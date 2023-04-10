@@ -1,0 +1,38 @@
+.full{
+position: relative;
+}
+
+.admins {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 200px;
+  background-color: rgb(29, 217, 98);
+  width: 500px;
+  height: 300px;
+  padding: 30px 40px 30px 40px;
+  box-shadow: 0px 0px 10px 0px rgba(6, 0, 5, 0.5);
+}
+
+.loginform input {
+  display: block;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 400px;
+  padding: px;
+  font-size: 16px;
+  border: 1px solid #ccccccaf;
+  border-radius: 5px;
+}
+
+.btn button {
+  padding: 8px;
+  color: #000000;
+  font-size: 16px;
+  background-color: rgb(86, 130, 19);
+  width: 400px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
