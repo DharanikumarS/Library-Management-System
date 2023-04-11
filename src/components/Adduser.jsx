@@ -1,26 +1,27 @@
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/adduser.css";
 
 const AddUser = () => {
   let name = useRef(null);
   let email = useRef(null);
   let contact = useRef(null);
+  let navigate = useNavigate();
   let submit = (e) => {
-    e.preventDefault()
-    
-    let data={
+    e.preventDefault();
+
+    let data = {
       name: name.current.value,
       email: email.current.value,
       contact: contact.current.value,
     };
-    fetch("",{
-    method: "POST",
-    headers: { "Content-Type": "application/jsOn" },
-    body: JSON.stringify(data),
-  });
-  alert("poda punda");
-  navigate("/");
-    
+    fetch("http://localhost:1000/users", {
+      method: "POST",
+      headers: { "Content-Type": "application/jsOn" },
+      body: JSON.stringify(data),
+    });
+    alert("poda panda");
+    navigate("/");
   };
 
   return (

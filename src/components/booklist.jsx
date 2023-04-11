@@ -22,7 +22,7 @@ const Booklist = () => {
     };
 
     fetchdata();
-  }, [book]);
+  }, []);
   const deletebook = (id) => {
     fetch(` http://localhost:1000/books/${id}`, {
       method: `DELETE`,
